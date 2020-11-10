@@ -21,12 +21,13 @@ public class Main {
         personList.add(person4);
         personList.add(person5);
 
-        System.out.println(person1.toString());
-        System.out.println(person2.toString());
-        System.out.println(person3.toString());
-        System.out.println(person4.toString());
-        System.out.println(person5.toString());
 
-        System.out.println(personList.get(0));
+        int count = 0;
+        for(int i = 0; i < personList.size(); i++){
+            System.out.println(personList.get(i));
+            count += 1;
+        }
+        System.out.println("Общее количество объектов коллекции: " + count);
+
     }
 }
