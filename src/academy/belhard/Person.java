@@ -23,7 +23,8 @@ public final class Person {
 
     @Override
     public String toString() {
-        return "firstName: " + firstName + "   lastName: " + lastName + "   gender: " + gender;
+        return "firstName: " + firstName + "   lastName: " + lastName
+                + "   gender: " + gender;
     }
 
 
